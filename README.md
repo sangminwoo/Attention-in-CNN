@@ -1,6 +1,9 @@
 Attention-in-CNN
 ================================
 
+- Backbone: ResNet
+- Dataset: CIFAR100
+
 Requirements
 -----------
 Install all the python dependencies using pip:
