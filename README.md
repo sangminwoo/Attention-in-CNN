@@ -45,7 +45,7 @@ $ python main.py --gpu GPUNUM --evaluate --resume RESUME --use_att
 - **GPUNUM**: 0; 0,1; 0,3; 0,1,2; whatever
 - **RESUME**: e.g., save/model_best.pth.tar (If you have changed save path, you should change resume path as well.)  
 
-Visualization
+Visualization(Grad-CAM)
 ----------
 Without Attention
 ```
