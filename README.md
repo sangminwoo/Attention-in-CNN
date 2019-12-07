@@ -22,9 +22,9 @@ With Attention
 ```
 $ python main.py --gpu GPUNUM --arch ARCHITECTURE --use_att --att_mode ATT
 ```
-**GPUNUM**: 0; 0,1; 0,3; 0,1,2; whatever
-**ARCHITECTURE**: resnet18(default), resnet34, resnet50, resnet101, resnet152 
-**ATT**: ours(default), se  
+- **GPUNUM**: 0; 0,1; 0,3; 0,1,2; whatever
+- **ARCHITECTURE**: resnet18(default), resnet34, resnet50, resnet101, resnet152 
+- **ATT**: ours(default), se  
 
 You can find more configurations in *main.py*.
 
@@ -39,8 +39,8 @@ With Attention
 ```
 $ python main.py --gpu GPUNUM --evaluate --resume RESUME --use_att
 ```
-**GPUNUM**: 0; 0,1; 0,3; 0,1,2; whatever
-**RESUME**: e.g., save/model_best.pth.tar (If you have changed save path, you should change resume path as well.)  
+- **GPUNUM**: 0; 0,1; 0,3; 0,1,2; whatever
+- **RESUME**: e.g., save/model_best.pth.tar (If you have changed save path, you should change resume path as well.)  
 
 Visualization
 ----------
