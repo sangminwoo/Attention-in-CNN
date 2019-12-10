@@ -1,7 +1,7 @@
 Attention-in-CNN
 ================================
 
-- Backbone: ResNet
+- Baseline: ResNet
 - Dataset: CIFAR100
 
 Requirements
