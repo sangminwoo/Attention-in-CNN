@@ -189,7 +189,7 @@ def resnet(arch='resnet50', pretrained=False, **kwargs):
 	elif arch == 'resnet152':
 		layers = [3, 8, 36, 3]
 
-	model = ResNet(BasicBlock, layers, **kwargs)
+	model = ResNet(Bottleneck, layers, **kwargs)
 
 	if pretrained:
 		pretrained_dict = model_zoo.load_url(model_urls[arch])
